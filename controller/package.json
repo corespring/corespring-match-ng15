@@ -4,6 +4,6 @@
   "private": true,
   "main": "src/controller.js",
   "dependencies": {
-    "corespring-legacy-match": "PieLabs/corespring-legacy-match"
+    "corespring-legacy-match": "corespring/corespring-legacy-match"
   }
 }

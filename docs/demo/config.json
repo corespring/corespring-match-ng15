@@ -1,11 +1,14 @@
-{
-  "pies": [
+{  
+  "langs": [
+    "en-US"
+  ],
+  "elements": {
+    "corespring-match-ng15": "../.."
+  },
+  "models": [
     {
       "id": "1",
-      "pie": {
-        "name": "corespring-match-ng15",
-        "version": "1.0.0"
-      },
+      "element": "corespring-match-ng15",
       "minimumWidth": 300,
       "correctResponse": [
         {

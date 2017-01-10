@@ -9,80 +9,79 @@
     {
       "id": "1",
       "element": "corespring-match-ng15",
-      "minimumWidth": 300,
-      "correctResponse": [
+      "correctResponse" : [ 
         {
-          "id": "row-1",
-          "matchSet": [
-            true,
+          "id" : "row-1",
+          "matchSet" : [ 
+            false, 
+            true
+          ]
+        }, 
+        {
+          "id" : "row-2",
+          "matchSet" : [ 
+            true, 
             false
           ]
-        },
+        }, 
         {
-          "id": "row-2",
-          "matchSet": [
-            true,
+          "id" : "row-3",
+          "matchSet" : [ 
+            true, 
             false
           ]
-        },
+        }, 
         {
-          "id": "row-3",
-          "matchSet": [
-            true,
-            false
-          ]
-        },
-        {
-          "id": "row-4",
-          "matchSet": [
-            true,
+          "id" : "row-4",
+          "matchSet" : [ 
+            true, 
             false
           ]
         }
       ],
-      "allowPartialScoring": false,
-      "partialScoring": [
+      "allowPartialScoring" : false,
+      "partialScoring" : [ 
         {}
       ],
-      "feedback": {
-        "correctFeedbackType": "none",
-        "partialFeedbackType": "none",
-        "incorrectFeedbackType": "none"
+      "feedback" : {
+        "correctFeedbackType" : "none",
+        "partialFeedbackType" : "none",
+        "incorrectFeedbackType" : "none"
       },
-      "model": {
-        "columns": [
+      "model" : {
+        "columns" : [ 
           {
-            "labelHtml": "Column 1"
-          },
+            "labelHtml" : "Column 1"
+          }, 
           {
-            "labelHtml": "Column 2"
-          },
+            "labelHtml" : "<div>Yes</div>"
+          }, 
           {
-            "labelHtml": "Column 3"
+            "labelHtml" : "<div>No</div>"
           }
         ],
-        "rows": [
+        "rows" : [ 
           {
-            "id": "row-1",
-            "labelHtml": "Question text 1"
-          },
+            "id" : "row-1",
+            "labelHtml" : "<div>The lengths of&nbsp;​<span mathjax=\"\">\\(\\overline{AX}\\)</span>​ and&nbsp;​<span mathjax=\"\">\\(\\overline{XD}\\)</span>​ satisfy the equation&nbsp;​<span mathjax=\"\">\\(2AX=3XD\\)</span>​.</div>"
+          }, 
           {
-            "id": "row-2",
-            "labelHtml": "Question text 2"
-          },
+            "id" : "row-2",
+            "labelHtml" : "<div><div>The lengths&nbsp;​<span mathjax=\"\">\\(\\overline{AX}\\)</span>​,&nbsp;​<span mathjax=\"\">\\(\\overline{BX}\\)</span>​,&nbsp;​<span mathjax=\"\">\\(\\overline{CX}\\)</span>​, and&nbsp;​<span mathjax=\"\">\\(\\overline{DX}\\)</span>​ satisfy the equation&nbsp;</div>​<span mathjax=\"\">\\(\\frac{AX}{BX}=\\frac{DX}{CX}\\)</span>​.</div>"
+          }, 
           {
-            "id": "row-3",
-            "labelHtml": "Question text 3"
-          },
+            "id" : "row-3",
+            "labelHtml" : "<div>Lines&nbsp;​<span mathjax=\"\">\\(\\overline{AB}\\)</span>​ and&nbsp;​<span mathjax=\"\">\\(\\overline{CD}\\)</span>​ are parallel.</div>"
+          }, 
           {
-            "id": "row-4",
-            "labelHtml": "Question text 4"
+            "id" : "row-4",
+            "labelHtml" : "<div>Angle&nbsp;​<span mathjax=\"\">\\(\\angle XAB\\)</span>​ is congruent to angle&nbsp;​<span mathjax=\"\">\\(\\angle XCD\\)</span>​.</div>"
           }
         ],
-        "config": {
-          "inputType": "radiobutton",
-          "layout": "three-columns",
-          "shuffle": false
+        "config" : {
+          "inputType" : "radiobutton",
+          "layout" : "three-columns",
+          "shuffle" : false
         }
       }
     }

@@ -2,3 +2,8 @@ bower.json
 bundle.js
 entry.js
 package.json
+public/
+example.html
+README.md
+pie-item.js
+.all-in-one.webpack.config.js
